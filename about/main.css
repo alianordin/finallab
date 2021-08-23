@@ -1,0 +1,109 @@
+html{
+    background-color: rgb(6, 6, 87);
+}
+header, main{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 80vw;
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+.font-1{
+    font-family: 'Righteous', cursive;
+}
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+}
+.logo{
+    font-size: 50px;
+    letter-spacing: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+}
+.logo img{
+    margin-left: 40px;
+}
+a:hover {
+    background-color: rgba(49, 108, 235, 0.781);
+    padding: 10px;
+    border-radius: 10px;
+}
+main{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.menu *{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    text-align: center;
+}
+
+.menu nav ul li{
+    display: inline-block;
+    margin: 0 68px;
+    font-size: 20px;
+}
+.side-box{
+    position:fixed;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    background:rgba(152, 152, 212, 0.39);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height:180px;
+    width: 35px;
+    writing-mode: vertical-rl;
+    font-size: 20px;
+    justify-content: center;
+}
+.side-box nav a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+}
+.container{
+    color: black;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.c-desc, .gallery{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.c-desc p{
+    text-align: justify;
+    line-height: 1.5;
+}
+footer{
+    background-color: black;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: 'Jost', sans-serif;
+}
+.footer{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.footer p{
+    font-family: 'Righteous', cursive;
+    margin-left: 30px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ICE ENERGY : Aircond Services prices</title>
+    <meta name="description" content="Rover sample site">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="font-1 logo flex">
+            <div>ICE ENERGY</div>
+            <img src="../img/photo_2021-08-21_18-23-22.jpg" width="80px" alt="logo" />
+        </div>
+    </header>
+    <div class="menu font-1">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about/about.html">About</a></li>
+                <li><a href="../price/index.html">Prices</a></li>
+                <li><a href="./book.html">Schedules</a></li>
+                <li><a href="../packages/package.html">Packages</a></li>
+                <li><a href="../FAQS/FAQS.html">FAQs</a></li>
+                <li><a href="../contact-us/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <div class="font-1 side-box flex">
+            <nav>
+                <a href="./book.html">BOOK NOW!</a>
+            </nav>
+        </div>
+
+        <div class="banner">
+            <h1>Book with Us! <i class="fa fa-snowflake-o" aria-hidden="true"></i></h1>
+        </div>
+
+        <form action="../thanks.html">
+            <div class="container">
+                <p>Please fill in this form to book with us.</p>
+                <hr>
+
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Your name" name="name" id="name" required>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+                <label for="tel"><b>Phone Number</b></label>
+                <input type="phone" placeholder="Enter Phone Number (without -)" name="tel" id="tel" required>
+
+                <label for="service">Services Type</label>
+                <select id="service" name="service">
+                    <option value="choose">[CHOOSE]</option>
+                    <option value="wall">WALL-MOUNTED AIR CONDITIONER (basic)</option>
+                    <option value="wall">WALL-MOUNTED AIR CONDITIONER (chemical)</option>
+                    <option value="ceiling">CASSETTE UNIT CEILING EXPOSED (basic)</option>
+                    <option value="ceiling">CASSETTE UNIT CEILING EXPOSED (chemical)</option>
+                    <option value="other">OTHER SERVICES (Buy, sell, supply and repair electronic equipment / home
+                        renovation)</option>
+                </select>
+
+                <label for="schedule">Date</label>
+                <input type="date" id="schedule" name="schedule">
+
+                <hr>
+
+                <button class="bookbtn" onclick="myFunction()">Book</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="flex footer">
+            <img src="../img/photo_2021-08-21_18-23-22.jpg" width="50px" />
+            <p>Professional Aircond Cleaning & Installation Services Expert</p>
+        </div>
+        &#169 Ice Energy <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+
+        <div>
+            <a href="#"><i class="fa fa-facebook-square"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-telegram"></i></a>
+            <a href="#"><i class="fa fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
